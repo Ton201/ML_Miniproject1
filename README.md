@@ -66,7 +66,7 @@ Ridge regression was chosen as base line model, since linear model is the simpli
 
 <center>
 
-![title](./ridge_training.png)
+![title](./pictures/ridge_training.png)
 
 </center>
 
@@ -80,7 +80,7 @@ SVM was chosen as the second model for it capabilities of explorign non-linear r
 <center>
 
 
-![title](./SVR_training.png)
+![title](./pictures/SVR_training.png)
 
 
 </center>
