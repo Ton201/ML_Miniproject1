@@ -62,6 +62,8 @@ I decided to use RMSE as the evaluation metric. The R2 score was also used for i
 Ridge regression was chosen as base line model, since linear model is the simpliest one. Ridge regression also utilises the regularization parameter on top of that. The best obtained validation RMSE and R2 were 0.3257 and 0.7459 respectively. This result was obtained using regularisation parameter alpha of 15.3878.
 </justify>
 
+<br/>
+
 <center>
 
 ![title](./ridge_training.png)
@@ -73,9 +75,14 @@ Ridge regression was chosen as base line model, since linear model is the simpli
 SVM was chosen as the second model for it capabilities of explorign non-linear relations. The best obtained validation RMSE was 0.1261 and validation R2 was 0.9617. This result was obtained using regularisation parameter C of 9.7667.
 </justify>
 
+<br/>
+
 <center>
 
+
 ![title](./SVR_training.png)
+
+
 </center>
 
 <justify>
