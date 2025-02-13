@@ -16,5 +16,10 @@ In this project I was assigned to create a model that will predict the fuel cons
 
 Each CSV file contains two columns: time and value. Time is in .NET DateTime.Ticks format and needs to be converted to human readable format in order to properly aggregate the data from all sensors.
 
-To determine the optimal time window to predict the fuel consumption, I aggregated records by day and counted the number of records. That gave me 54 days with records from all sensors. With minimul number of records per day for one sensor was 5894.
+### Defining the taarget variable
+
+To determine the optimal time window to predict the fuel consumption, I aggregated records by day and counted the number of records. That gave me 54 days with records from all sensors. With minimul number of records per day for one sensor was 5894. I chose the window for predicting the consumption to be 1 hour.
+
+### Feature selection
+
 </justify>

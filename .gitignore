@@ -4,3 +4,5 @@ raw_data.tar
 .ipynb_checkpoints/
 *.csv
 to-do.md
+processed_data/
+.gitattributes
